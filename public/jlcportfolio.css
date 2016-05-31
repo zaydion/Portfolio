@@ -1,0 +1,401 @@
+body {
+    background-image: url("http://drscdn.500px.org/photo/102056767/m%3D2048/f15511021c3ca79b516a7d347c884ce3");
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+}
+
+.navbar.navbar-default {
+  background-color: white;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a:hover {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+
+.proj-description h1:hover {
+  color: #0073e6;
+}
+
+ .navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
+  display: 100%;
+  background-color: white;
+}
+
+.ghost-nav {
+  display: none;
+}
+
+ .navbar h1 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.header-links {
+  margin-top: 3%;
+  float: left;
+}
+
+.header-links a {
+  font-family: "roboto";
+  font-weight: 500;
+  color: #3399ff;
+  font-size: 1.5em;
+}
+
+.header-links a:hover {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+
+#loader-wrapper .loader-section {
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+  background-color: #f1f1f1;
+  z-index: 1000;
+}
+
+#loader-wrapper .loader-section.section-left {
+  left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+  right: 0;
+}
+
+#loader {
+  z-index: 1;
+  margin: 0 auto;
+  height: 10em;
+  width: 5em;
+  background-color: blue;
+  margin-top: 25%;
+
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #3498db;
+
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+/* Loaded */
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateX(-100%);  /* IE 9 */
+    transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateX(100%);  /* IE 9 */
+    transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+}
+
+.loaded #loader {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+  visibility: hidden;
+}
+
+.loaded #loader-wrapper .loader-section.section-right,
+.loaded #loader-wrapper .loader-section.section-left {
+
+  -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+          transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+/* animating the whole wrapper out of sight */
+.loaded #loader-wrapper {
+        -webkit-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+                transform: translateY(-100%);
+
+        -webkit-transition: all 0.3s 1s ease-out;
+                transition: all 0.3s 1s ease-out;
+}
+
+.container-fluid.profile-card {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.profile-card {
+  height: 50em;
+  width: 100%;
+  background-color: rgba(8, 8, 8, 0.64);
+  padding: 0;
+  text-align: center;
+}
+
+.section {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  width: 100%;
+}
+
+.row .one {
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+
+.text {
+  font-family: "Roboto";
+  margin-top: 20%;
+  color: black;
+}
+
+.text h1 {
+  font-weight: 900;
+  font-size: 5em;
+  color: white;
+}
+
+.text p {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #3399ff;
+}
+
+.container-fluid.skills {
+  height: auto;
+}
+
+.section.skills {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.skills .quote {
+  height: 10em;
+  width: 100%;
+  padding-top: 3%;
+  background-color: #000;
+  color: #fff;
+}
+
+.quote {
+  height: 10em;
+  width: 100%;
+  padding-top: 3%;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 3%;
+}
+
+.quote h4 {
+  text-align: center;
+  width: 40em;
+  margin: 0 auto;
+  margin-bottom: 1%;
+}
+
+.languages {
+  padding-bottom: 5em;
+}
+
+.images img {
+  height: 7em;
+  width: 7em;
+  padding: 0;
+  margin: 0;
+}
+
+.images {
+  margin: 0;
+  padding: 0;
+  margin-left: 7%;
+  display: inline;
+}
+
+.images.html-css img {
+  height: 10em;
+  width: 18em;
+  margin-top: -1.5em;
+}
+
+.images.javascript img {
+  height: 8em;
+  width: 8em;
+}
+
+.images.ruby img {
+  height: 8em;
+  width: 10em;
+}
+
+.projects {
+  background-color: #000;
+  color: white;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+.projects .code-pic img {
+  height: 25em;
+  width: 20em;
+  border-radius: 0.5em;
+}
+
+.projects .demo-pic img {
+  height: 25em;
+  width: 40em;
+  border-radius: 0.75em;
+}
+
+.headshot img{
+  height: 16em;
+  width: 16em;
+  border-radius: 0.75em;
+  margin-top: 3%;
+}
+
+
+.divider {
+  background-color: white;
+  color: #000;
+  height: 4em;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 1.5em;
+}
+
+.contact {
+  background-color: rgba(8, 8, 8, 0.75);
+  height: 55em;
+  padding-top: 3%;
+}
+
+.one {
+  background-color: white;
+  color: black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+}
+
+.two {
+  background-color: black;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+.contact-background {
+  background-image: url("http://drscdn.500px.org/photo/117527117/m%3D2048/4db46c56d4615ae6f36fd86b7000c0ff");
+  background-size: 100% 100%;
+}
+
+.contact-links {
+  margin-top: 5%;
+}
+
+.contact-links a {
+  color: #3399ff;
+}
+
+.contact-links a:hover {
+  color: #0073e6;
+}
+
+.proj-description {
+  margin-top: 8%;
+}
+
+.proj-description h1 {
+  color: #3399ff;
+}
+
+.proj-description p {
+  margin: 0 auto;
+  width: 24em;
+}
+
+.bio {
+  font-size: 1em;
+  color: white;
+}
+
+
+.bio ul {
+  margin: 0 auto;
+  text-align: left;
+  list-style: none;
+  font-size: 1.2em;
+  width: 14em;
+  margin-top: 3%;
+  font-weight: 500;
+}
+
+.bio a {
+  color: white;
+}
+
+.bio a:hover {
+  color: #3399ff;
+  text-decoration: none;
+}
+
+.jumbotron.footer {
+  height: 2em;
+  width: 100%;
+  padding: 0;
+  margin:0;
+  text-align: center;
+  color: black;
+}
+
+.jumbotron.footer h6 {
+  padding-top: 1%;
+  margin: 0;
+  font-style: italic;
+}
+
+.projects #myCarousel.code-pic {
+  height: 25em;
+  width: 25em;
+  border-radius: 0.5em;
+}
+
+.projects #myCarousel.demo-pic {
+  height: 25em;
+  width: 40em;
+  border-radius: 0.75em;
+}
+
+
+
